@@ -1,0 +1,292 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    list-style: none;
+}
+header{
+    width: 100%;
+    padding: 15px;
+}
+.logo
+{
+    margin: auto;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    color: #364253;
+    display: flex;
+    justify-content: center;
+}
+section
+{
+    width: 100%;
+}
+.main-check
+{
+    width: 80%;
+    margin: auto;
+    padding: 50px 15px;
+}
+.ul-one
+
+{
+    position: relative;
+}
+.ul-one ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5px 0px 0px;
+}
+.main-check ul li
+{
+    font-size: 13px;
+    padding: 0px 15px;
+}
+.all
+{
+    padding: 30px 0px 0px; 
+}
+.checkout-ul
+{
+    margin: 0px 0px 30px;
+}
+.checkout-ul ul
+{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+}
+.after1::after
+{
+    content: '';
+    border: 1px solid #FDBD00;
+    display: block;
+    position: absolute;
+    width: 4%; 
+    bottom: -80%; 
+}
+.after3::after
+{
+    content: '';
+    border: 1px dotted black;
+    display: block;
+    position: absolute;
+    width: 2%;
+    top: 55%;
+    left: 40.5%;
+}
+.after2::after
+{
+    content: '';
+    border: 1px dotted black;
+    display: block;
+    position: absolute;
+    width: 2%;
+    top: 55%;
+    right: 51%;
+}
+.check-box1
+{
+    padding: 0px 0px 30px;
+    width: 65%;
+    font-size: 14px;
+    border-right: 1px solid gray;
+}
+.check-box1 p
+{
+    padding: 0px 0px 5px;
+}
+
+.row
+{
+    display: flex;
+}
+.check-box1 h4{
+    font-size: 17px;
+    margin: 24px 0px 0px;
+}
+.first-name
+{
+    margin: 20px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    width: 50%;
+}
+input
+{
+    padding: 8px 15px;
+    width: 100%;
+    border: 1px solid gray;
+}
+.email
+{
+    margin: 20px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    width: 100%;
+}
+.address
+{
+    margin: 20px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    width: 100%; 
+}
+.input2
+{
+    padding: 40px 15px;
+    width: 100%;
+}
+.but
+{
+    width: 100%;
+    text-align: end;
+    padding: 0px 15px 0px 0px;
+}
+.continue
+{
+    padding: 8px 10px;
+    background-color: #EB984E;
+    color: white;
+   
+}
+.check-box2
+{
+    padding: 30px 0px 30px 30px;
+    width: 35%;
+
+}
+.coupon
+{
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
+.coupon input
+{
+    width: 80%;
+    padding: 8px 10px;
+}
+.apply
+{
+    padding: 8px 10px;
+    background-color: #EB984E;
+    color: white;
+}
+.flex
+{
+    display: flex;
+}
+.order
+{
+    margin: 24px 0px 20px;
+    padding: 24px 0px 20px;
+    border-bottom: solid 1px black;
+    font-size: 15px;
+}
+.sub
+{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.fix
+{
+    position: sticky;
+    top: 0%;
+    padding-top: 25px;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #364253;
+    padding: 5% 0%;
+}
+
+.sub-footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1 {
+    width: 24%;
+    height: auto;
+}
+
+.foot1 h2 {
+    color: white;
+    font-size: 22px;
+}
+
+.foot-box1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 33px;
+    margin-top: 20px;
+}
+
+.foot-box2 {
+    width: 31%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.foot1 p {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 30px;
+
+    i {
+        color: #ffffff80;
+        font-size: 20px;
+    }
+
+    i+i {
+        margin: 8px;
+    }
+}
+
+.foot1 ul {
+    margin-top: 23px;
+}
+
+.foot1 ul li {
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.foot1 input {
+    height: 35px;
+    margin-top: 20px;
+    width: 90%;
+    border: 1px solid white;
+    padding: 5px;
+    background: none;
+}
+
+.foot1 .btn9 {
+    width: 90%;
+    color: #EB984E;
+    margin-top: 6px;
+    padding: 10px 0px;
+    background-color: white;
+    text-align: center;
+}
